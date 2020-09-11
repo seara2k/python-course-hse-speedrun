@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+print("YES" if d * e >= (a * b and b * c and a * c) else "NO")
