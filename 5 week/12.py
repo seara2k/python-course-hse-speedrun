@@ -1,0 +1,5 @@
+lol = list(map(int, input().split()))
+ind1 = lol.index(max(lol))
+ind2 = lol.index(min(lol))
+lol[ind1], lol[ind2] = min(lol), max(lol)
+print(*lol)
